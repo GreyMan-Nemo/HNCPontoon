@@ -1,3 +1,7 @@
+/* Basic version of the game pontoon, 
+ * Created as answer to a problem during HNC
+*/
+
 package pontoon;
 
 // Importing required module(s)
@@ -35,7 +39,7 @@ public class pontoon {
 				
 		} // Closing random number for loop
 		
-/* ** *//* Some math to add cards 1 and 2,
+/* ********** *//* Some math to add cards 1 and 2,
  		 * Results will be housed in "int total" 
  		 * Will print out empty string to provide space in output
  		*/
@@ -47,7 +51,7 @@ public class pontoon {
 		System.out.println( "Do you want another card? [1] Yes [2] No");
 			userInput = scan.nextInt();
 			
-/* ** *//* Create an if loop to catch yes input
+/* ********** *//* Create an if loop to catch yes input
  		 * Will contain nested while and for loops 
  		 * Will reuse previously written for loop from above
  		*/
@@ -61,13 +65,13 @@ public class pontoon {
 			} // Closing while loop
 		} // Closing yes if loop
 		
-/* ** *//* Some more math to add new value to current value
+/* ********** *//* Some more math to add new value to current value
  		 * Results will be housed in "int total" 
  		*/
 		total = total + cardNew;
 		System.out.println( "Hand value: "+ total);
 		
-/* ** *//* Creating if/else statement to determine win/lose result
+/* ********** *//* Creating if/else statement to determine win/lose result
  		 * Use math to compare player's total to 18 ( house value)
  		 * Print out results to user	
  		*/
